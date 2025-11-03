@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Cambridge Dictionary Search",
+  "version": "1.0",
+  "description": "Search highlighted words on Cambridge Dictionary.",
+  "permissions": ["contextMenus", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
